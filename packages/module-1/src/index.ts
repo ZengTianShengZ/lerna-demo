@@ -1,5 +1,10 @@
 
 
+interface IUser{
+  name: string,
+  province: string,
+  city: string
+}
 
 export const getUser = () => {
   return {
