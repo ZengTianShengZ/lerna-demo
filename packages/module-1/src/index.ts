@@ -13,3 +13,7 @@ export const getUser = () => {
     city: 'xiamen'
   }
 }
+
+export const getUserid = () => {
+  return 'xxxx'
+}
