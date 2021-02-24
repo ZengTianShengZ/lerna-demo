@@ -8,7 +8,7 @@ interface IUser{
 
 export const getUser = () => {
   return {
-    name: 'tiansheng',
+    name: 'tiansheng11',
     province: 'fujian',
     city: 'xiamen'
   }
