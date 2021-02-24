@@ -1,6 +1,12 @@
 {
-  "name": "root",
+  "name": "lerna-demo",
   "private": true,
+  "author": "tiansheng <tiansheng@163.com>",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ZengTianShengZ/lerna-demo.git"
+  },
   "devDependencies": {
     "lerna": "^3.16.4",
     "lerna-changelog": "^1.0.1"
