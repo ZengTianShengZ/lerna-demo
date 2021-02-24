@@ -2,5 +2,11 @@
   "packages": [
     "packages/*"
   ],
+  "command": { 
+    "publish": {
+      "ignoreChanges": ["*.md", "**/test/**"], 
+      "message": "chore(release): publish"
+    }
+  },
   "version": "1.0.1"
 }
