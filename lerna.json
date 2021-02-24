@@ -2,6 +2,15 @@
   "packages": [
     "packages/*"
   ],
+  "changelog": {
+    "labels": {
+      "feature": "New Feature",
+      "bug": "Bug Fix"
+    },
+    "GITHUB_AUTH": "ddddddd",
+    "repo": "lerna-demo",
+    "cacheDir": ".changelog"
+  },
   "command": { 
     "publish": {
       "ignoreChanges": ["*.md", "**/test/**"], 
